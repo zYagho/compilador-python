@@ -1,1 +1,1 @@
-inteiro: a,b
+inteiro a := 1 + 2
