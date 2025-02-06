@@ -181,7 +181,6 @@ def t_error(token):
 
     # token.lexer.has_error = True
 
-
 def main():
 
     global check_tpp
@@ -248,6 +247,6 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print(e)
-    except (ValueError, TypeError):
+    except (ValueError, TypeError) as e:
         print(e)
 
